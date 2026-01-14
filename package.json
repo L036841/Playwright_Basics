@@ -1,0 +1,20 @@
+{
+  "name": "playwright_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "cucumber": "cucumber-js",
+    "cucumber:lilly": "cucumber-js features/lillyNowLogin.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
